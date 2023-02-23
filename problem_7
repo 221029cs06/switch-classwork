@@ -1,0 +1,24 @@
+//
+//  main.cpp
+//  problem_7
+//
+//  Created by Asilbek Alimov on 23/02/23.
+//
+
+#include <iostream>
+using namespace std;
+int main() {
+    int holidays;
+    cin>>holidays;
+    switch (holidays) {
+        case 3:
+            cout<<"In March there is:"<<endl;
+            cout<<"– International Women’s Day, 8 March"<<endl;
+            cout<<"– Navruz, 21 March"<<endl;
+            break;
+        case 6:
+            cout<<"Ramadan"<<endl;
+            break;
+    }
+    return 0;
+}
