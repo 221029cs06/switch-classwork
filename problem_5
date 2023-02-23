@@ -1,0 +1,26 @@
+//
+//  main.cpp
+//  problem_6
+//
+//  Created by Asilbek Alimov on 23/02/23.
+//
+
+#include <iostream>
+using namespace std;
+int main() {
+    int id;
+    cin>>id;
+    switch (id) {
+        case 1:
+            cout<<"Name:Alex"<<endl;
+            cout<<"Lastname:Smith"<<endl;
+            cout<<"Age:23"<<endl;
+            break;
+        case 3:
+            cout<<"Name:Sara"<<endl;
+            cout<<"Lastname:Johnson"<<endl;
+            cout<<"Age:28"<<endl;
+      
+    }
+    return 0;
+}
