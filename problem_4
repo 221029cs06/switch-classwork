@@ -1,0 +1,27 @@
+//
+//  main.cpp
+//  problem_4
+//
+//  Created by Asilbek Alimov on 23/02/23.
+//
+
+#include <iostream>
+using namespace std;
+int main() {
+    int language;
+    cin>>language;
+    switch(language){
+        case 1:
+            cout<<"Hola!"<<endl;
+            break;
+        case 2:
+            cout<<"Hallo!"<<endl;
+            break;
+        case 3:
+            cout<<"Hello!"<<endl;
+            break;
+        default:
+            cout<<"There is no such option"<<endl;
+    }
+    return 0;
+}
